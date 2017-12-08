@@ -58,7 +58,8 @@ public class NovoOrientadorCRUD extends OrientadorCRUD {
         } catch (SQLException ex) {
             ex.getStackTrace();
         }
-        return null;
+
+        return orientadores;
     }
 
 

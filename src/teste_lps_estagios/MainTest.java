@@ -70,8 +70,7 @@ public class MainTest {
         NovoSupervisorCrud novoSupervisorCrud = new NovoSupervisorCrud();
         novoSupervisorCrud.cadastrar(sup);
 
-
-        novoOrientadorCRUD.exibir();
+        novoOrientadorCRUD.exibir().forEach(c -> System.out.println(c.getNome()));
 
     }
 }
