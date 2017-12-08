@@ -2,7 +2,7 @@ package teste_lps_estagios;
 
 import negocio.EstagiarioTecnico;
 
-public class EstagiarioTec extends EstagiarioTecnico {
+public class NovoEstagiarioTecnico extends EstagiarioTecnico {
 
     private String codigoEMac;
 

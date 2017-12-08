@@ -9,7 +9,7 @@ import java.sql.SQLException;
 
 public class EstagiarioTecCRUD extends EstagiariotCRUD {
 
-    public String cadastrar(EstagiarioTec estagiario) {
+    public String cadastrar(NovoEstagiarioTecnico estagiario) {
         PreparedStatement stmt;
 
         Date objdat = Date.valueOf(estagiario.getDataNascimento());
@@ -53,5 +53,7 @@ public class EstagiarioTecCRUD extends EstagiariotCRUD {
         }
         return null;
     }
+
+
 
 }
